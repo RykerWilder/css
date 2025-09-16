@@ -13,10 +13,22 @@
     gap: 30px;
 }
 
+img:hover {
+    transform: scale(1.1);
+    transition: all .3s linear;
+    box-shadow: 5px 10px #888888;
+}
+
 .large {
     width: 100%;
 }
 
 .small {
     width: calc(100% / 3);
+}
+
+@media screen and (max-width: 600px){
+    img {
+        width: 100%;
+    }
 }
