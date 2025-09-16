@@ -28,7 +28,12 @@ img:hover {
 }
 
 @media screen and (max-width: 600px){
+
+    .container {
+        gap: 0;
+    }
+
     img {
-        width: 100%;
+        min-width: 100%;
     }
 }
